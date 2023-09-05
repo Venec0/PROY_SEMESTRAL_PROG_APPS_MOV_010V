@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+
+  <link rel="stylesheet" href="login.page.scss">
+  <body id="body">
+      <div id="container">
+        <strong>BIENVENIDO!</strong>
+        
+        <h6>Porfavor inicie sesion</h6>
+      </div>
+    
+      <div id="label">
+        <ion-item>
+          <ion-input  label="Usuario" labelPlacement="floating" placeholder="" errorText="Email invalido" ngModel email></ion-input>
+        </ion-item>
+      </div>
+    
+      <div id="password">
+        <ion-item>
+          <ion-input label="Password" labelPlacement="floating" placeholder=""></ion-input>
+        </ion-item>
+      </div>
+    
+      <div id="button">
+        <ion-button href="http://localhost:8100/home" round="">Ingresar</ion-button>
+      </div>
+    
+      <div id="link">
+        <a href="http://localhost:8100/restablecer">Registrate gratis</a>
+      </div>
+    </body>
+</ion-content>

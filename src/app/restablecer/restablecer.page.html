@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <link rel="stylesheet" href="restablecer.page.scss">
+<body id="body">
+  <div id="strong">
+    <strong> Para recuperar su cuenta ingrese su correo y su nueva contraseña</strong>
+  </div>
+  
+  <div id="label">
+    <ion-item>
+      <ion-input  label="Usuario" labelPlacement="floating" placeholder="" errorText="Email invalido" ngModel email></ion-input>
+    </ion-item>
+  </div>
+
+  <div id="password">
+    <ion-item>
+      <ion-input label="Contraseña" labelPlacement="floating" placeholder=""></ion-input>
+    </ion-item>
+  </div>
+
+  <div id="confirmar">
+    <ion-item>
+      <ion-input label="Confirme su nueva contraseña" labelPlacement="floating" placeholder=""></ion-input>
+    </ion-item>
+  </div>
+
+  <div id="button">
+    <ion-button href="http://localhost:8100/login" round="">Confirmar Cambio</ion-button>
+  </div>
+
+</body>
+</ion-content>

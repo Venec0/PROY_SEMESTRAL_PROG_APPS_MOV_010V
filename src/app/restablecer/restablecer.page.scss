@@ -1,0 +1,56 @@
+#strong{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    transform: translateY(-90%);
+    color: white;
+    font-size: 150%;
+}
+
+#label {
+    text-align: center;
+    position: absolute;
+    transform: translateX(6%);
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 400px;
+  }
+
+  #password {
+    text-align: center;
+    position: absolute;
+    transform: translateX(6%);
+    left: 0;
+    right: 0;
+    top: 45%;
+    width: 400px;
+  }
+
+  #confirmar {
+    text-align: center;
+    position: absolute;
+    transform: translateX(6%);
+    left: 0;
+    right: 0;
+    top: 60%;
+    width: 400px;
+  }
+
+  #button {
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 75%;
+  
+  }
+
+  #body{
+    background-image: url('./nube-696x348.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
